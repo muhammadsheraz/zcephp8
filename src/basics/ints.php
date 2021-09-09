@@ -43,8 +43,8 @@ var_dump (PHP_INT_MIN -1);
  * Floating points precision concerns
  */
 echo "<br>";
-var_dump (round((double) ( (0.1 + 0.7) * 10 ))); // echoes 7!
+var_dump (round((double) ( (0.1 + 0.7) * 10 ))); // output float(8)
 
 echo "<br>";
-var_dump (round((int) ( (0.1 + 0.7) * 10 ))); // echoes 7!
+var_dump (round((int) ( (0.1 + 0.7) * 10 ))); // output float(7)
 
