@@ -24,7 +24,9 @@ echo "<pre>$val5</pre>";
  */
 
 
-## Some tricks with booleans
+/**
+ * Some tricks with booleans
+ */
 
 $val1 = -0.1;
 var_dump((bool)$val1);
@@ -49,3 +51,12 @@ var_dump($h);
 echo "<br>";
 
 var_dump(!0);
+
+
+
+/**
+ * Integers
+ */
+$a = 0x1A;
+
+var_dump((int)$a);
